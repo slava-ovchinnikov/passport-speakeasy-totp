@@ -1,0 +1,44 @@
+{
+  "name": "passport-speakeasy-totp",
+  "version": "0.0.1",
+  "description": "TOTP authentication strategy for Passport over speakeasy.",
+  "keywords": [
+    "passport",
+    "otp",
+    "oath",
+    "totp",
+    "auth",
+    "authn",
+    "authentication",
+    "speakeasy",
+    "2FA",
+    "twoFactor"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com:slava-ovchinnikov/passport-speakeasy-totp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/slava-ovchinnikov/passport-speakeasy-totp/issues"
+  },
+  "author": {
+    "name": "Slava Ovchinnikov",
+    "email": "vyacheslav.ovchinnikov.d@gmail.com"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib",
+  "dependencies": {
+    "speakeasy": "2.0.x",
+    "passport-strategy": "1.0.0",
+    "pkginfo": "0.4.x"
+  },
+  "scripts": {},
+  "engines": {
+    "node": ">= 0.4.0"
+  }
+}
